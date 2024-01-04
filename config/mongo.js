@@ -21,8 +21,4 @@ const connectToMongo = () => {
   });
 };
 
-<<<<<<< HEAD
 module.exports = { connectToMongo };
-=======
-module.exports = { connectToMongo };
->>>>>>> dee1e64e2467585b8764a100b1426b9f9c344f16
