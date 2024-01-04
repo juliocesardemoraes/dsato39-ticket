@@ -11,7 +11,7 @@ app.use(cors({}));
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send({ working: true });
+  res.send({ working: "yes" });
 });
 
 app.get("/livros", async (req, res) => {
